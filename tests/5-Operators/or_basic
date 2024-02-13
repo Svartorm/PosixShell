@@ -1,0 +1,7 @@
+if true || true; then echo foo1; fi
+
+if true || false; then echo foo3; fi
+
+if false || true; then echo foo5; fi
+
+if false || false; then echo foo7; fi

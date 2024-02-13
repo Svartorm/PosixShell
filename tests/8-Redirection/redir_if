@@ -1,0 +1,17 @@
+rm f1 f2
+if ! echo foo;
+then
+    echo nope!
+elif ls nonex
+then
+    echo still nope
+else
+    echo good
+fi 2> f2 > f1
+
+
+echo a
+cat f1
+echo bb
+cat f2
+rm f1 f2

@@ -1,0 +1,7 @@
+t3 () if true; then echo ok; fi
+
+t3
+
+t3 () { echo this is test 3. ; }
+
+t3

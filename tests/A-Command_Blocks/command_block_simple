@@ -1,0 +1,3 @@
+{ echo foo; echo bar; }
+
+{ echo foo2; echo bar2; }

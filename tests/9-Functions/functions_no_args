@@ -1,0 +1,25 @@
+foo () {
+    echo bar
+}
+
+foo
+
+t1 	     (  )
+{
+echo aha
+}
+
+t1
+
+man ( ) {
+    echo 'hello, I am man.'
+}
+
+man atoi
+
+true () { echo uh-ho... ; }
+
+true
+
+foo() { echo baz ; }
+foo

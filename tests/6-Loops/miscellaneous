@@ -1,0 +1,21 @@
+for i in 1 2 3
+do
+echo foo
+while true
+do
+    echo bar
+    break 2
+    echo baz
+done
+done
+
+while true
+do
+echo foo
+for i in 1 2 3
+do
+    echo bar
+    break 2
+    echo baz
+done
+done

@@ -1,0 +1,2 @@
+#! ! echo foo
+#ce test a un comportement different selon le sujet et selon bash --posix

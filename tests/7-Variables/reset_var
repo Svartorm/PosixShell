@@ -1,0 +1,1 @@
+reset_var=ko; reset_var=ok; echo $reset_var

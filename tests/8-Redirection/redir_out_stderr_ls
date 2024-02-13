@@ -1,0 +1,7 @@
+ls nonex 2> .testrosl
+echo foo
+cat .testrosl
+echo bar
+ls nonex 2> .testrosl
+echo baz
+cat .testrosl

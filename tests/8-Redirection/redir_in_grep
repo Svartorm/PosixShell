@@ -1,0 +1,5 @@
+grep a < Makefile.am
+
+echo foo
+
+grep o < tests/8-Redirection/outside_redir_in_grep.txt

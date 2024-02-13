@@ -1,0 +1,8 @@
+rm .testraoe
+echo test1 >> .testraoe
+echo foo
+cat .testraoe
+echo bar
+echo test2 >> .testraoe
+echo baz
+cat .testraoe

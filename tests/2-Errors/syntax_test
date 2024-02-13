@@ -1,0 +1,2 @@
+a=foo echo $a
+reeeee=uriiiii uriiiii=aaaaa echo uriiiii $reeeee $uriiiii

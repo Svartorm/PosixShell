@@ -1,0 +1,8 @@
+rm .testraoc
+cat testsuite.sh >> .testraoc
+echo foo
+cat .testraoc
+echo bar
+cat testsuite.sh >> .testraoc
+echo baz
+cat .testraoc

@@ -1,0 +1,7 @@
+ls > .testrol
+echo foo
+cat .testrol
+echo bar
+ls > .testrol
+echo baz
+cat .testrol

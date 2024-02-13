@@ -1,0 +1,15 @@
+if true && true && true; then echo foo1; fi
+
+if true && true && false; then echo foo3; fi
+
+if true && false && true; then echo foo5; fi
+
+if true && false && false; then echo foo7; fi
+
+if false && true && true; then echo foo9; fi
+
+if false && true && false; then echo foo11; fi
+
+if false && false && true; then echo foo13; fi
+
+if false && false && false; then echo foo15; fi

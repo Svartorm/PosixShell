@@ -1,0 +1,1 @@
+null_var_assign=; echo $null_var_assign

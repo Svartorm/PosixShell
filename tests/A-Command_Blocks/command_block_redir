@@ -1,0 +1,3 @@
+{ echo foo; echo bar; } > .cbr1
+echo baz
+cat .cbr1

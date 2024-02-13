@@ -1,0 +1,16 @@
+rm f1 f2 f3
+redir_nultiple() {
+    ls nonex; ls ; ls nonex
+} > f1 1> f2 2> f3
+cat f1
+cat f2
+cat f3
+
+redir_multiple
+echo a
+cat f1
+echo bb
+cat f2
+echo ccc
+cat f3
+rm f1 f2 f3

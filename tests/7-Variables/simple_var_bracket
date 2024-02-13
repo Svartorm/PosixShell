@@ -1,0 +1,1 @@
+simple_var_bracket="test"; echo ${simple_var_bracket}

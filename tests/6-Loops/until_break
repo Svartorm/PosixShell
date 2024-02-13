@@ -1,0 +1,30 @@
+until false
+do
+    echo foo
+    break
+    echo bar
+done
+
+until false
+do
+    echo foo
+    until false
+    do
+        echo bar
+        break 3
+        echo baz
+    done
+    echo doo
+done
+
+until false
+do
+    echo foo
+    until false
+    do
+        echo bar
+        break 2
+        echo baz
+    done
+    echo doo
+done

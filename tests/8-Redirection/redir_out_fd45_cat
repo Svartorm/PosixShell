@@ -1,0 +1,3 @@
+cat Makefile.am 45> .test45
+echo foo
+cat .test45

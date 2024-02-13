@@ -1,0 +1,2 @@
+if ls ; then echo good1; else echo bad1; fi
+if ! ls ; then echo bad2; else echo good2; fi

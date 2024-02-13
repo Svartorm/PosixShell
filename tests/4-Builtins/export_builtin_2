@@ -1,0 +1,1 @@
+export TOTO=tata; export TATA=tata; echo $TOTO

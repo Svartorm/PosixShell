@@ -1,0 +1,50 @@
+echo 0
+
+for i in 1 2 3
+do
+    echo foo
+    break
+    echo bar
+done
+
+echo 1
+
+for i in 1 2 3 4 5
+do
+    echo foo
+    for j in 1 2
+    do
+        echo bar
+        break
+        echo baz
+    done
+    echo doo
+done
+
+echo 2
+
+for i in 1 2 3 4 5
+do
+    echo foo
+    for j in 1 2
+    do
+        echo bar
+        break 3
+        echo baz
+    done
+    echo doo
+done
+
+echo 3
+
+for i in 1 2 3 4 5
+do
+    echo foo
+    for j in 1 2
+    do
+        echo bar
+        break 2
+        echo baz
+    done
+    echo doo
+done

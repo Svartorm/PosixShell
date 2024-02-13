@@ -1,0 +1,8 @@
+if ! man atoi | grep 0
+then echo foo
+else echo bar
+fi
+
+if ! true | false; then echo baz; elif false; true; then echo t1; else echo t2; fi
+
+! man atoi | grep 0

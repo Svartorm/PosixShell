@@ -1,0 +1,4 @@
+a=foo echo $a
+reeeee=uriiiii uriiiii=aaaaa echo uriiiii $reeeee $uriiiii $a
+
+# bash --posix does not agree with us on that test, but the SCL should.

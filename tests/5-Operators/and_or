@@ -1,0 +1,31 @@
+if true || true && true; then echo foo1; fi
+
+if true || true && false; then echo foo3; fi
+
+if true || false && true; then echo foo5; fi
+
+if true || false && false; then echo foo7; fi
+
+if false || true && true; then echo foo9; fi
+
+if false || true && false; then echo foo11; fi
+
+if false || false && true; then echo foo13; fi
+
+if false || false && false; then echo foo15; fi
+
+if true && true || true; then echo foo17; fi
+
+if true && true || false; then echo foo19; fi
+
+if true && false || true; then echo foo21; fi
+
+if true && false || false; then echo foo23; fi
+
+if false && true || true; then echo foo25; fi
+
+if false && true || false; then echo foo27; fi
+
+if false && false || true; then echo foo29; fi
+
+if false && false || false; then echo foo31; fi

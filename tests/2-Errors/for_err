@@ -1,0 +1,10 @@
+for i in 1 2 3 4 5
+do
+    echo foo
+    for j in 1 2
+    do
+        echo bar
+        continue
+        echo baz
+    echo doo
+done

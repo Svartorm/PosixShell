@@ -1,0 +1,1 @@
+if false; then echo 'true'; elif true; then echo 'elif'; fi

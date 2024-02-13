@@ -1,0 +1,4 @@
+until true
+do
+    echo foo
+done

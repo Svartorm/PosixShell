@@ -1,0 +1,7 @@
+echo foo
+
+false
+
+exit 0
+
+echo bar

@@ -1,0 +1,9 @@
+echo test1 > .testroe
+echo foo
+cat .testroe
+echo bar
+echo test2 > .testroe > .testroe2
+echo baz
+cat .testroe
+echo baz
+cat .testroe2

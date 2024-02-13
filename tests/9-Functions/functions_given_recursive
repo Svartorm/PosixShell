@@ -1,0 +1,11 @@
+foo() {
+    bar() {
+        echo foobar
+    }
+}
+
+# defines bar
+foo
+
+# prints foobar
+bar

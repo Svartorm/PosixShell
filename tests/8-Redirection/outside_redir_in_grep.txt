@@ -1,0 +1,9 @@
+this is plain text
+
+this should be used by grep
+in redir_in_grep
+
+i hope this works
+not much time left, is there ?
+oh well. no regrets as long as we work.
+i guess.

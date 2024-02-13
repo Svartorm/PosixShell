@@ -1,0 +1,6 @@
+echo foo
+man atoi <> .rrw
+echo bar
+cat .rrw
+echo baz
+rm .rrw

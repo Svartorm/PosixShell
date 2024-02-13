@@ -1,0 +1,7 @@
+man atoi <> .rrw
+echo foo
+grep 0 0<> .rrw
+echo bar
+cat .rrw
+echo baz
+rm .rrw

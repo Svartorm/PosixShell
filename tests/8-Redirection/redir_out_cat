@@ -1,0 +1,7 @@
+cat testsuite.sh > .testrop
+echo foo
+cat .testrop
+echo bar
+cat testsuite.sh > .testrop
+echo baz
+cat .testrop

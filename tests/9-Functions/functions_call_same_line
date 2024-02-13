@@ -1,0 +1,8 @@
+f0 () { man make | grep make ; } ; f0
+
+
+f1 () { echo foo ; false } f1
+
+f2 () {
+    echo bar
+} f2

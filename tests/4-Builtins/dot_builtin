@@ -1,0 +1,3 @@
+. ./tests/4-Builtins/file_dot.sh
+
+echo $VAR_NAME

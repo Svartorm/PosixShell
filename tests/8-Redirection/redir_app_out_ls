@@ -1,0 +1,8 @@
+rm .testraol
+ls >> .testraol
+echo foo
+cat .testraol
+echo bar
+ls >> .testraol
+echo baz
+cat .testraol

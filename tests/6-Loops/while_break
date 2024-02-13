@@ -1,0 +1,30 @@
+while true
+do
+    echo foo
+    break
+    echo bar
+done
+
+while true
+do
+    echo foo
+    while true
+    do
+        echo bar
+        break 3
+        echo baz
+    done
+    echo doo
+done
+
+while true
+do
+    echo foo
+    while true
+    do
+        echo bar
+        break 2
+        echo baz
+    done
+    echo doo
+done
